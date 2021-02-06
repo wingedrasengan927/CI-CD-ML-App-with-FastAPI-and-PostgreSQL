@@ -1,0 +1,6 @@
+uvicorn[standard]
+fastapi
+tensorflow==2.3
+sqlalchemy
+pydantic[email]
+psycopg2
