@@ -8,4 +8,4 @@ def get_sentiment(review):
     if type(review) != str:
         return
     sentiment =  model.predict(np.array([review]))
-    return float(sentiment[0][0])
+    return round(float(sentiment[0][0]), 2)
