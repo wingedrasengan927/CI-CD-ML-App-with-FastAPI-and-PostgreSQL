@@ -18,3 +18,6 @@ This will start a PostgreSQL instance and the application instance
 you can connect to the database from the command line using psql  
 to view the swagger documentation of the application, go to `localhost:8002/docs`  
 you can test the application there
+
+### CI
+This app follows CI methodology to run tests when commited to the master branch. the workflow is in `.github/workflows/main.yml`
